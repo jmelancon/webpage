@@ -2,66 +2,19 @@
 <html>
     <head>
         <title>//jmelancon</title>
-        <style>
-            body {
-                font-family: monospace;
-                background-color: #1E1E20;
-                color: Gainsboro;
-                margin: 0;
-            }
-            header {
-                background-color: #424247;
-                color: Gainsboro;
-                border-bottom: 24px solid gainsboro;
-            }
-            footer {
-                background-color: #424247;
-                color: Gainsboro;
-                border-top: 24px solid gainsboro;
-            }
-            p {
-                font-size: 32px;
-                padding-left: 12.5%;
-                padding-right: 12.5%;
-                text-align: center;
-            }
-            hr {
-                width: 50%;
-            }
-            a {
-                color: DarkGrey;
-            }
-            .bdtabl th{
-                border: 1px solid;
-                padding: 6px;
-                background-color: #343438;
-                font-size: 20px;
-            }
-            .bdtabl td{
-                border: 1px solid;
-                padding: 6px;
-                background-color: #424247;
-                font-size: 16px;
-            }
-            .bdtabl {
-                border-top: 8px solid;
-                border-bottom: 8px solid;
-                padding: 10px;
-                width: 75%;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="https://kit.fontawesome.com/1fb2cf2c35.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <table align=center>
-                <tr style="vertical-align: middle;">
-                    <td style="padding-right: 24px;"><img src="https://jmelancon.com/assets/photos/profile_photo.jpg" height=128px width=128px style="border: 8px solid Gainsboro"></td>
-                    <td style="padding-left: 12px; padding-right: 12px; text-align: center;">
-                        <h1 style="font-size: 64px;">joseph melancon</h1>
-                    </td>
-                </tr>
-            </table>
+            <div class="header_div" align=center>
+              <div>
+                <img src="assets/photos/profile_photo.jpg" height=128px width=128px style="border: 8px solid Gainsboro">
+              </div>
+              <div>
+                <h1 style="font-size: 64px;">joseph melancon</h1>
+              </div>
+            </div>
         </header>
         <p>
             Hello, my name is Joseph! I currently go to school at Waconia High School and am looking to pursue a degree in Computer Sciences at the University of North Dakota.
@@ -142,18 +95,16 @@
         </table>
         <p><br></p>
         <footer>
-            <table align=center style="width: 75%;">
-                <tr>
-                    <td align=left>
-                        <h3><a href="mailto: joseph@jmelancon.com" style="color: Gainsboro;">joseph@jmelancon.com</a></h3>
-                    </td>
-                    <td align=right>
-                        <a href="https://github.com/jmelancon" style="color: Gainsboro;"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.youtube.com/channel/UC3Di1Y0yF1sNI5ry-TqdVZw" style="color: Gainsboro;"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://www.ifixit.com/User/2637625/tinyturtleclan" style="color: Gainsboro;"><i class="fa-solid fa-screwdriver-wrench"></i></a>
-                    </td>
-                </tr>
-            </table>
+          <div class="footer_div" align=center>
+            <div align=left>
+              <h3><a href="mailto: joseph@jmelancon.com" style="color: Gainsboro;">joseph@jmelancon.com</a></h3>
+            </div>
+            <div align=right>
+              <a href="https://github.com/jmelancon" style="color: Gainsboro;"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.youtube.com/channel/UC3Di1Y0yF1sNI5ry-TqdVZw" style="color: Gainsboro;"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.ifixit.com/User/2637625/tinyturtleclan" style="color: Gainsboro;"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+            </div>
+          </div>
         </footer>
     </body>
 </html>
