@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://jmelancon.com/sitemap.txt
+Sitemap: https://jmelancon.com/sitemap.txt
