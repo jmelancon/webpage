@@ -40,6 +40,9 @@ footer {
     border-top: 24px solid gainsboro;
     text-align: center;
 }
+footer p {
+    font-size: 16px;
+}
 p {
     font-size: 32px;
     padding-left: 12.5%;
@@ -50,7 +53,7 @@ hr {
     width: 50%;
 }
 a {
-    color: DarkGrey;
+    color: GainsBoro;
 }
 .bordered-table th{
     border: 1px solid;
