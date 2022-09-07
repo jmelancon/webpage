@@ -10,6 +10,9 @@ header {
     border-bottom: 24px solid gainsboro;
     text-align: center;
 }
+header h1 {
+    font-size: 64px;
+}
 .header_div{
     padding: 1rem;
     width: calc(100% - 3rem);
@@ -40,9 +43,6 @@ footer {
     border-top: 24px solid gainsboro;
     text-align: center;
 }
-footer p {
-    font-size: 16px;
-}
 p {
     font-size: 32px;
     padding-left: 12.5%;
@@ -68,12 +68,81 @@ a {
     font-size: 16px;
     word-wrap: anywhere;
 }
-.bordered-table {
-    border-top: 8px solid;
-    border-bottom: 8px solid;
-    padding: 0 1rem;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 
+@media screen and (max-width: 999px) {
+    p {
+        font-size: 4vw;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        padding: 0;
+    }
+
+    .bordered-table {
+        padding: 0 1rem;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .bordered-table th {
+        font-size: 3vw;
+    }
+
+    .bordered-table td {
+        font-size: 3vw;
+    }
+    .bordered-table a {
+        font-size: 3vw;
+    }
+    footer p {
+        font-size: 3vw;
+    }
+    header {
+        border-bottom: 4vw solid gainsboro;
+    }
+    footer {
+        border-top: 4vw solid gainsboro;
+    }
+    hr {
+        width: unset;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    .header_div div{
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    header h1 {
+        font-size: 5vw;
+    }
+    header img {
+        width: 12vw;
+        height: 12vw;
+        border: 1.25vw solid Gainsboro
+    }
+    .header_div div{
+        padding-left: .25rem;
+        padding-right: .25rem;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .bordered-table {
+        border-top: 8px solid;
+        border-bottom: 8px solid;
+        padding: 0 1rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    footer p {
+        font-size: 16px;
+    }
+    header img {
+        width: 128px;
+        height: 128px;
+        border: 8px solid Gainsboro
+    }
 }
